@@ -1,0 +1,4 @@
+# 编辑 `/etc/apt/sources.list` 文件，删除原文件所有内容，用以下内容取代：
+deb [arch=armhf] http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ bullseye main non-free contrib rpi
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ bullseye main non-free contrib rpi
+
